@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  padding: 0 80px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  gap: 25px;
+}
+
+.header-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  gap: 40px;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-text h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin-bottom: 20px;
+}
+
+.header-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #2a405f;
+  border: 1px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+
+.header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder {
+  background-color: #6b7280;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600x;
+  height: 400px;
+}
+
+
+.info {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #1f2937;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info-box {
+  width: 250px;
+  height: 200px
+}
+
+.img-box{
+  width: 245px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.box {
+  border: 2px solid #1f2937;
+  border-radius: 12px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 200px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.quote .author {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cta {
+  padding: 60px 80px;
+}
+
+.cta-box {
+  background-color: #1f2937;
+  color: white;
+  border-radius: 8px;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-box button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 30px;
+}
+
+a:visited {
+  color:  rgb(255, 255, 255, 0.68);
+  text-decoration-color: rgb(255, 255, 255, 0.68);
+
+}
+a:active{
+    color: rgb(6, 10, 243);
+}
+
+a:hover{
+    color: rgb(2, 79, 89);
+}
+a:active{
+    color: gray;
+}
+
+button:hover {
+  background-color: #2a5db0; /* azul mais escuro quando passar o mouse */
+}
