@@ -183,5 +183,6 @@ a:active{
 }
 
 button:hover {
-  background-color: #2a5db0; /* azul mais escuro quando passar o mouse */
+  background-color: #2a5db0;
+
 }
